@@ -9,6 +9,6 @@ repos:
     args:
     - --args=--config=./.tflint.hcl
     - --args=--module
-  # - id: terraform_tfdocs
-  #   args:
-  #   - template
+  - id: terraform_docs
+    args:
+    - --args=--config=./.tfdocs.yml
