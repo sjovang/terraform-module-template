@@ -8,9 +8,7 @@ Template for creating Terraform modules
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 3.16.0 |
+No requirements.
 
 ## Providers
 
