@@ -4,11 +4,22 @@ repos:
 
   hooks:
   - id: terraform_fmt
+
   - id: terraform_validate
+
   - id: terraform_tflint
     args:
-    - --args=--config=./.tflint.hcl
+    - --args=--config=__GIT_WORKING_DIR__/.tflint.hcl
     - --args=--module
+  
   - id: terraform_docs
     args:
     - --args=--config=./.tfdocs.yml
+  
+  - id: terraform_checkov
+
+  - id: terraform_tfsec
+
+  - id: infracost_breakdown
+    args:
+    - --args=--path=./
